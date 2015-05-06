@@ -1,0 +1,27 @@
+{
+  "name": "js-util",
+  "version": "0.0.1",
+  "description": "Various JavaScript Utility Functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TuxSudo/js-util.git"
+  },
+  "author": "Jared Anderson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TuxSudo/js-util/issues"
+  },
+  "homepage": "https://github.com/TuxSudo/js-util#readme",
+  "devDependencies": {
+    "babel": "^5.1.11",
+    "chai": "^2.3.0",
+    "jshint": "^2.7.0",
+    "mocha": "^2.2.4",
+    "rimraf": "^2.3.2",
+    "watch": "^0.16.0"
+  }
+}
