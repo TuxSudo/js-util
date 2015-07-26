@@ -3,7 +3,11 @@ export default [
     {
         name: "Micky",
         type: "Mouse",
-        likes: ['Minnie', 'Sailboats']
+        likes: ['Minnie', 'Sailboats'],
+        details: {
+            pants: true,
+            shirt: false
+        }
     },
 
     {
